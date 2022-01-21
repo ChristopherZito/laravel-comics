@@ -146,7 +146,7 @@ footer{
     width: 100%;
     .comic-bar{
         height: 75px;
-        background-color: blue;
+        background-color: #467cfa;
         .box{
             position: relative;  
             width: 70%;
@@ -163,4 +163,40 @@ footer{
         margin: auto;
         padding: 50px 0;
     }
+    .more-info{
+        background-color: #dbdbdd;
+        padding: 30px 0;
+        // debug
+        // height: 300px;
+        border: 1px solid black;
+
+        .display-flex-v{
+            width: 70%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            
+            .sub-display{
+                width: 45%;
+                font-weight: 600;
+                .text-display{
+                    padding: 20px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    p{
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+    .sub-shop{
+        background-color: #dbdbdd;
+        // debug
+        height: 100px;
+        border: 1px solid red;
+    }
+}
+.text-blu{
+    color: #00c8ff;
 }
