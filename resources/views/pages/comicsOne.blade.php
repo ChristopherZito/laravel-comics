@@ -97,8 +97,6 @@
                 </div>
             </div>
         </section>
-        <section class="sub-shop">
-            {{-- shop grey --}}
-        </section>
+        @include('components.sub_shop')
     </div>
 @endsection
