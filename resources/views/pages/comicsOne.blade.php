@@ -1,6 +1,45 @@
 @extends('layouts.main-layout')
 @section('content')
-    <h1>
-        First Comic
-    </h1>
+    <div class="comics">
+        <section class="comic-bar">
+            {{-- top section --}}
+            <div class="box" >
+                <div class="up">
+                    <a href="{{route('body')}}">
+                        <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="Comic">
+                        
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="description">
+            {{-- descrizione oggetto --}}
+            <h2>
+                blablabla
+            </h2>
+            <span>
+                <div>
+                    <span>
+                        Price:19.56
+                    </span>
+                    <span>
+                        AVABILE
+                    </span>
+                </div>
+                <div>
+                    Check Availability
+                </div>
+            </span>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum est adipisci accusamus cum incidunt enim non reprehenderit. Perferendis laboriosam, quasi exercitationem temporibus eos quam suscipit. Laudantium accusantium quos corporis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, modi. Quisquam tempore animi ducimus est. Aperiam id laudantium ipsum obcaecati ab voluptates veritatis repellat, odio neque voluptate impedit velit beatae.
+            </p>
+        </section>
+    </div>
+    <section>
+        {{-- more info for the comic --}}
+    </section>
+    <section>
+        {{-- shop grey --}}
+    </section>
 @endsection
