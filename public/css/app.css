@@ -13,28 +13,59 @@ header #spaceBlu {
 header #container {
   width: 70%;
   margin: 10px auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
-header #container img {
+header #container #img {
+  margin-right: 100px;
+}
+
+header #container #img img {
   width: 100px;
 }
 
 header #container li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 header #container li a {
   color: black;
   text-decoration: none;
+  vertical-align: 35px;
+  font-weight: 700;
 }
 
 header section {
   background-image: url("https://vistapointe.net/images/teen-titans-wallpaper-19.jpg");
   height: 350px;
   background-size: contain;
+}
+
+footer {
+  color: #ffff;
+  background-color: #212223;
+}
+
+footer section {
+  width: 70%;
+  margin: auto;
+}
+
+footer section #info {
+  padding: 30px 0;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section #log {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer section #log button {
+  padding: 5px 10px;
 }
 
