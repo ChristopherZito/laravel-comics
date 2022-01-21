@@ -32,6 +32,30 @@
                         DIGITAL COMICS
                     </h3>
                 </div>
+                <div>
+                    <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/default_images/DC_placeholder_comic-active_573b3c133ef580.76442500.jpg?itok=dyx9Ozzs" alt="">
+                    <h3>
+                        DC MERCHANDISE
+                    </h3>
+                </div>
+                <div>
+                    <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/default_images/DC_placeholder_comic-active_573b3c133ef580.76442500.jpg?itok=dyx9Ozzs" alt="">
+                    <h3>
+                        SUBSCRIPTION
+                    </h3>
+                </div>
+                <div>
+                    <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/default_images/DC_placeholder_comic-active_573b3c133ef580.76442500.jpg?itok=dyx9Ozzs" alt="">
+                    <h3>
+                        COMIC SHOP LOCATOR
+                    </h3>
+                </div>
+                <div>
+                    <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/default_images/DC_placeholder_comic-active_573b3c133ef580.76442500.jpg?itok=dyx9Ozzs" alt="">
+                    <h3>
+                        DC POWER VISA
+                    </h3>
+                </div>
         </section>
     </div>
 @endsection

@@ -136,7 +136,6 @@ footer section #log button {
 
 #shop {
   background-color: #00c8ff;
-  padding: 50px 0;
 }
 
 #shop section {
@@ -150,14 +149,14 @@ footer section #log button {
 #shop section div {
   display: flex;
   align-items: center;
-  width: calc(20% - 20px);
-  margin: 0 30px;
+  width: 20%;
+  padding: 30px;
   color: #ffff;
 }
 
 #shop section div img {
-  width: 150px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   margin-right: 10px;
 }
 
@@ -186,6 +185,39 @@ footer section #log button {
   width: 70%;
   margin: auto;
   padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comics .description .comic-des {
+  width: 65%;
+}
+
+.comics .description .comic-des .ava-ice {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00da69;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.comics .description .comic-des .ava-ice .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 75%;
+  border-right: 1px black solid;
+}
+
+.comics .description .comic-des .ava-ice .available {
+  padding: 15px 30px;
+}
+
+.comics .description .comic-des p {
+  color: #656565;
+  margin-top: 20px;
+  line-height: 20px;
 }
 
 .comics .more-info {
@@ -230,5 +262,9 @@ footer section #log button {
 
 .text-blu {
   color: #00c8ff;
+}
+
+.text-green {
+  color: #14ac14;
 }
 

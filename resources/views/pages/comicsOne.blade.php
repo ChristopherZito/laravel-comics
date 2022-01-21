@@ -14,26 +14,36 @@
         </section>
         <section class="description">
             {{-- descrizione oggetto --}}
-            <h2>
-                blablabla
-            </h2>
-            <span>
-                <div>
-                    <span>
-                        Price:19.56
-                    </span>
-                    <span>
-                        AVABILE
-                    </span>
-                </div>
-                <div>
-                    Check Availability
-                </div>
-            </span>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum est adipisci accusamus cum incidunt enim non reprehenderit. Perferendis laboriosam, quasi exercitationem temporibus eos quam suscipit. Laudantium accusantium quos corporis.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, modi. Quisquam tempore animi ducimus est. Aperiam id laudantium ipsum obcaecati ab voluptates veritatis repellat, odio neque voluptate impedit velit beatae.
-            </p>
+            <div class="comic-des">
+                <h2>
+                ACTION COMICS #100: THE DELUX EDITION
+                </h2>
+                <span class="ava-ice">
+                    <div class="price">
+                        <span>
+                            <span class="text-green">U.S. Price:</span>$19.99
+                        </span>
+                        <span class="text-green">
+                            AVAILABILE
+                        </span>
+                    </div>
+                    <div class="available">
+                        Check Availability
+                    </div>
+                </span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum est adipisci accusamus cum incidunt enim non reprehenderit. Perferendis laboriosam, quasi exercitationem temporibus eos quam suscipit. Laudantium accusantium quos corporis.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, modi. Quisquam tempore animi ducimus est. Aperiam id laudantium ipsum obcaecati ab voluptates veritatis repellat, odio neque voluptate impedit velit beatae.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum est adipisci accusamus cum incidunt enim non reprehenderit. Perferendis laboriosam, quasi exercitationem temporibus eos quam suscipit. Laudantium accusantium quos corporis.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, modi. Quisquam tempore animi ducimus est. Aperiam id laudantium ipsum obcaecati ab voluptates veritatis repellat, odio neque voluptate impedit velit beatae.
+                </p>
+            </div>
+            {{-- immagine di ads --}}
+            <div>
+                <img src="" alt="">
+                ADVERTISMENT
+            </div>
+            
         </section>
         <section class="more-info">
             {{-- more info for the comic --}}
