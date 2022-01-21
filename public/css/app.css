@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header #spaceBlu {
+  height: 20px;
+  width: 100%;
+  background-color: #4646ff;
+}
+
+header #container {
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header #container img {
+  width: 100px;
+}
+
+header #container li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header #container li a {
+  color: black;
+  text-decoration: none;
+}
+
+header section {
+  background-image: url("https://vistapointe.net/images/teen-titans-wallpaper-19.jpg");
+  height: 350px;
+  background-size: contain;
+}
+
