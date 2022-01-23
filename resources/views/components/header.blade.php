@@ -33,7 +33,13 @@
                 <a href="#">FANS</a>
             </li>
             <li>
-                <a href="#">SHOP</a>
+                <a href="#">NEWS</a>
+            </li>
+            <li>
+                <a href="">SHOP</a>
+            </li>
+            <li>
+                <a href="">SEARCH</a>
             </li>
         </ul>
     </div>
