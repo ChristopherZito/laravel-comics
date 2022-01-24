@@ -44,25 +44,62 @@ header {
 footer{
     color: #ffff;
     background-color: #212223;
-    section{
+    #foot-jumbotron{
+        width: 100%;
+        background-image: url('/storage/assets/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #info{
         width: 70%;
         margin: auto;
-        #info{
-            padding: 30px 0;
-            height: 400px;
-
-            display: flex;
-            justify-content: space-between;
-            
+        padding: 30px 0;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        div{
+            margin-right: 20px;
         }
-        #log{
-          height: 100px;  
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          button{
-              padding:5px 10px;
-          }
+        li{
+            list-style: none;
+            margin: 10px 0;
+            color: gray;
+            font-weight: 600;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        section{
+            display: flex;
+        justify-content: space-between;
+        }
+        
+    }
+    #log{
+        width: 70%;
+        margin: auto;
+        height: 100px;  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div h2 {
+            color: blue;
+        }
+        
+        button {
+            background-color: transparent;
+            border: 1px solid blue;
+            padding: 15px;
+            h2 {
+                color: white;
+            }
+        }
+        img {
+            margin: 0 15px;
+        }
+        div {
+            display: flex;
         }
     }
 }

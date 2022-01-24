@@ -52,27 +52,72 @@ footer {
   background-color: #212223;
 }
 
-footer section {
-  width: 70%;
-  margin: auto;
+footer #foot-jumbotron {
+  width: 100%;
+  background-image: url("/storage/assets/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-footer section #info {
+footer #info {
+  width: 70%;
+  margin: auto;
   padding: 30px 0;
   height: 400px;
   display: flex;
   justify-content: space-between;
 }
 
-footer section #log {
+footer #info div {
+  margin-right: 20px;
+}
+
+footer #info li {
+  list-style: none;
+  margin: 10px 0;
+  color: gray;
+  font-weight: 600;
+}
+
+footer #info img {
+  width: 100%;
+  height: 100%;
+}
+
+footer #info section {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer #log {
+  width: 70%;
+  margin: auto;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-footer section #log button {
-  padding: 5px 10px;
+footer #log div h2 {
+  color: blue;
+}
+
+footer #log button {
+  background-color: transparent;
+  border: 1px solid blue;
+  padding: 15px;
+}
+
+footer #log button h2 {
+  color: white;
+}
+
+footer #log img {
+  margin: 0 15px;
+}
+
+footer #log div {
+  display: flex;
 }
 
 #page {
