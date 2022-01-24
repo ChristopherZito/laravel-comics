@@ -104,6 +104,6 @@ class TestBase extends Controller
               'text'=>"DC POWER VISA",
             ],
         ];
-        return view('pages.body', compact('comics'));
+        return view('pages.body', compact('comics', 'shopSection'));
     }
 }
