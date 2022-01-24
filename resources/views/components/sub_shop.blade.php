@@ -2,42 +2,13 @@
     {{-- shop grey --}}
     <hr>
     <section class="display-flex-v">
-        <div>
-            <h3>
-                DIGITAL COMICS
-            </h3>
-            <span>
-                <img src="" alt="">
-                immagine
-            </span>
-        </div>
-        <div>
-            <h3>
-                SHOP DC
-            </h3>
-            <span>
-                <img src="" alt="">
-                immagine
-            </span>
-        </div>
-        <div>
-            <h3>
-                COMIC SHOP LOCATOR
-            </h3>
-            <span>
-                <img src="" alt="">
-                immagine
-            </span>
-        </div>
-        <div>
-            <h3>
-                SUBSCRIPTIONS
-            </h3>
-            <span>
-                <img src="" alt="">
-                immagine
-            </span>
-        </div>
-        
+        @foreach ($shopSection as $item)
+            <div>
+                <h3>
+                    {{$item['text']}}
+                </h3>
+                <img src="{{asset('storage/assets')}}/{{$item['img']}}" alt="{{$item['text']}}">
+            </div>
+            @endforeach
     </section>
 </section>

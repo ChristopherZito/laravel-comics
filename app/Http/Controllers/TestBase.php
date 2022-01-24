@@ -106,4 +106,26 @@ class TestBase extends Controller
         ];
         return view('pages.body', compact('comics', 'shopSection'));
     }
+    public function subPart()
+    {
+        $shopSection = [
+            [
+              'img'=>"buy-comics-digital-comics.png",
+              'text'=>"DIGITAL COMICS",
+            ],
+            [
+              'img'=>"buy-comics-subscriptions.png",
+              'text'=>"SHOP DC",
+            ],
+            [
+                'img'=>"buy-comics-shop-locator.png",
+                'text'=>"COMIC SHOP LOCATOR",
+            ],
+            [
+              'img'=>"buy-comics-merchandise.png",
+              'text'=>"SUBSCRIPTION",
+            ],
+        ];
+        return view('pages.comicsOne',compact('shopSection'));
+    }
 }

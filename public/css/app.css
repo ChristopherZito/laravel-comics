@@ -309,6 +309,12 @@ footer #log div {
   border-right: 1px solid gray;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.comics .sub-shop div img {
+  width: 60px;
 }
 
 .text-blu {

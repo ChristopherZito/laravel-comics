@@ -40,7 +40,6 @@
             </div>
             {{-- immagine di ads --}}
             <div>
-                <img src="" alt="">
                 ADVERTISMENT
             </div>
             

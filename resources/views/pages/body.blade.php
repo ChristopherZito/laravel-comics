@@ -32,7 +32,7 @@
             <div>
                 <img src="{{asset('storage/assets')}}/{{$item['img']}}" alt="{{$item['text']}}">
                 <h3>
-                    DIGITAL COMICS
+                    {{$item['text']}}
                 </h3>
             </div>
             @endforeach

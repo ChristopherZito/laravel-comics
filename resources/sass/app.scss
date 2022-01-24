@@ -259,6 +259,7 @@ footer{
         margin: auto;
         display: flex;
         justify-content: space-between;
+        
 }
     .sub-shop{
         background-color: #dbdbdd;
@@ -272,6 +273,11 @@ footer{
             border-right: 1px solid gray;
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            color: gray;
+            img{
+                width: 60px;
+            }
         }
     }
 }
